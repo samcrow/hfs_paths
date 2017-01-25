@@ -1,0 +1,14 @@
+[package]
+name = "hfs_paths"
+version = "0.1.0"
+authors = ["Sam Crow <samcrow@uw.edu>"]
+description = "Converts Mac OS HFS paths into standard POSIX paths"
+documentation = "https://docs.rs/hfs_paths"
+repository = "https://github.com/samcrow/hfs_paths"
+readme = "README.md"
+keywords = ["HFS", "path", "convert"]
+categories = ["os::macos-apis", "filesystem"]
+license = "MIT/Apache-2.0"
+
+[dependencies]
+quick-error = "^1.1.0"
